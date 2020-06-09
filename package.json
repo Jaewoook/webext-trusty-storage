@@ -1,0 +1,19 @@
+{
+  "name": "webext-trusty-storage",
+  "version": "1.0.0",
+  "description": "Manage extension's storage trusty!",
+  "main": "dist/index.js",
+  "author": "Jaewook Ahn <ajw4586@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Jaewoook/webext-trusty-storage.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.114",
+    "typescript": "^3.9.5"
+  }
+}
