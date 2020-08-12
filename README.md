@@ -6,12 +6,12 @@ This library helps you to manage storage used by web extensions. It provides Pro
 
 This library works on browser extension environment. Before using it, you must check your `manifest.json` file to specify **storage** permission.
 
-```json
+```js
 {
     "name": "Sample Extension",
     "version": "1.0",
-    "permission": : ["storage"],
-    ...
+    "permission": ["storage"],
+    //  more
 }
 ```
 
